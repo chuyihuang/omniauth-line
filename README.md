@@ -1,4 +1,6 @@
-# OmniAuth Line
+# OmniAuth Line 
+
+[![Build Status](https://travis-ci.org/holyshared/omniauth-line.svg?branch=master)](https://travis-ci.org/holyshared/omniauth-line)
 
 This gem contains the Line OAuth2 Strategy for OmniAuth.
 
