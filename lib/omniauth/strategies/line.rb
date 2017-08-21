@@ -35,6 +35,10 @@ module OmniAuth
         raise ::Timeout::Error
       end
 
+      # redirect_uri patch
+      def callback_url
+        full_host + script_name + callback_path
+      end
     end
   end
 end
